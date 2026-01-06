@@ -8,7 +8,7 @@ function App() {
 
             
                 <section className="hero">
-                    <h1 className="accent">Ahmd Favaz</h1>
+                    <h1 className="accent">AHAMMED FAVAZ KM</h1>
                     <h2 style={{ marginTop: '0.5rem', marginBottom: '2rem', color: 'var(--text-primary)' }}>Software Developer</h2>
 
                     <div className="hero-description" style={{ maxWidth: '600px', marginBottom: '3rem' }}>
