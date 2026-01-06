@@ -6,7 +6,7 @@ function App() {
         <div className="portfolio">
             <main className="container">
 
-                {/* HERO SECTION */}
+            
                 <section className="hero">
                     <h1 className="accent">Ahmd Favaz</h1>
                     <h2 style={{ marginTop: '0.5rem', marginBottom: '2rem', color: 'var(--text-primary)' }}>Software Developer</h2>
@@ -30,7 +30,6 @@ function App() {
                     </div>
                 </section>
 
-                {/* QUICK CREDIBILITY SECTION */}
                 <section className="credibility">
                     <div className="grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '2rem' }}>
                         <div className="point">
@@ -52,13 +51,12 @@ function App() {
                     </div>
                 </section>
 
-                {/* FEATURED PROJECTS SECTION */}
+               
                 <section id="projects" className="projects">
                     <span className="badge">Featured Projects</span>
 
                     <div className="project-list" style={{ display: 'flex', flexDirection: 'column', gap: '4rem' }}>
 
-                        {/* Project 1 */}
                         <article className="project-card">
                             <div className="project-header" style={{ marginBottom: '1.5rem' }}>
                                 <h3 style={{ fontSize: '1.75rem', marginBottom: '0.5rem' }}>Local Café Queue & Status Management System</h3>
@@ -85,7 +83,7 @@ function App() {
                             </div>
                         </article>
 
-                        {/* Project 2 */}
+                       
                         <article className="project-card">
                             <div className="project-header" style={{ marginBottom: '1.5rem' }}>
                                 <h3 style={{ fontSize: '1.75rem', marginBottom: '0.5rem' }}>Confero <span style={{ opacity: 0.5, fontSize: '0.9rem', fontWeight: 400 }}>(In Progress)</span></h3>
@@ -114,7 +112,7 @@ function App() {
                     </div>
                 </section>
 
-                {/* ABOUT SECTION */}
+           
                 <section id="about" className="about">
                     <span className="badge">About</span>
                     <div style={{ maxWidth: '700px' }}>
@@ -127,7 +125,7 @@ function App() {
                     </div>
                 </section>
 
-                {/* CONTACT SECTION */}
+            
                 <section id="contact" className="contact" style={{ borderTop: '1px solid var(--border-color)' }}>
                     <h2 style={{ marginBottom: '1rem' }}>Contact</h2>
                     <p style={{ marginBottom: '3rem' }}>Simple and direct. No forms.</p>
