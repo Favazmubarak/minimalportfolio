@@ -61,7 +61,7 @@ function App() {
                             <div className="project-header" style={{ marginBottom: '1.5rem' }}>
                                 <h3 style={{ fontSize: '1.75rem', marginBottom: '0.5rem' }}>Local Café Queue & Status Management System</h3>
                                 <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginTop: '0.5rem' }}>
-                                    {['React', 'Node.js', 'MongoDB', 'WebSockets'].map(tech => (
+                                    {['Nextjs','Google API'].map(tech => (
                                         <span key={tech} style={{ fontSize: '0.8rem', padding: '0.2rem 0.6rem', border: '1px solid var(--border-color)', borderRadius: '2px' }}>{tech}</span>
                                     ))}
                                 </div>
