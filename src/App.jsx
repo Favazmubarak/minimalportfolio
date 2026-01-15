@@ -197,7 +197,7 @@ function App() {
                     "Node.js",
                     "TypeScript",
                     "MongoDB",
-                    "PostgreSQL",
+                    "WebRTC",
                     "Redis",
                   ].map((tech) => (
                     <span
