@@ -61,7 +61,7 @@ function App() {
             }}
           >
             <div className="point">
-              <h3>2+ Years</h3>
+              <h3>1+ Years</h3>
               <p>Hands-on coding experience</p>
             </div>
             <div className="point">
