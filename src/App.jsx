@@ -320,6 +320,7 @@ function App() {
           </div>
         </section>
 
+
         <footer
           style={{
             padding: "4rem 0",
