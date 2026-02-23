@@ -1,5 +1,12 @@
 import React from "react";
-import { Github, Linkedin, Mail, ExternalLink, Code } from "lucide-react";
+import {
+  Github,
+  Linkedin,
+  Mail,
+  ExternalLink,
+  Code,
+  Download,
+} from "lucide-react";
 
 function App() {
   return (
@@ -193,25 +200,21 @@ function App() {
                     marginTop: "0.5rem",
                   }}
                 >
-                  {[
-                    "Node.js",
-                    "TypeScript",
-                    "MongoDB",
-                    "WebRTC",
-                    "Redis",
-                  ].map((tech) => (
-                    <span
-                      key={tech}
-                      style={{
-                        fontSize: "0.8rem",
-                        padding: "0.2rem 0.6rem",
-                        border: "1px solid var(--border-color)",
-                        borderRadius: "2px",
-                      }}
-                    >
-                      {tech}
-                    </span>
-                  ))}
+                  {["Node.js", "TypeScript", "MongoDB", "WebRTC", "Redis"].map(
+                    (tech) => (
+                      <span
+                        key={tech}
+                        style={{
+                          fontSize: "0.8rem",
+                          padding: "0.2rem 0.6rem",
+                          border: "1px solid var(--border-color)",
+                          borderRadius: "2px",
+                        }}
+                      >
+                        {tech}
+                      </span>
+                    ),
+                  )}
                 </div>
               </div>
               <p style={{ marginBottom: "1.5rem", fontSize: "1.1rem" }}>
@@ -317,9 +320,17 @@ function App() {
               <Github className="accent" size={24} />
               <span>GitHub</span>
             </a>
+            <a
+              href="/AHMD CV.pdf"
+              download="AHAMMED FAVAZ SOFTWARE-DEVELOPER CV.pdf"
+              className="contact-item"
+              style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}
+            >
+              <Download className="accent" size={24} />
+              <span>Download CV</span>
+            </a>
           </div>
         </section>
-
 
         <footer
           style={{
