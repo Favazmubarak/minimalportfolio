@@ -970,7 +970,7 @@ export default function App() {
               </div>
               <span className="fv-clink-arrow">→</span>
             </a>
-            <a href="/AHMD CV.pdf" download="AHAMMED FAVAZ SOFTWARE-DEVELOPER CV.pdf" className="fv-clink">
+            <a href="/Favaz_FullStack_Developer_Resume.pdf" download="AHAMMED FAVAZ SOFTWARE-DEVELOPER CV.pdf" className="fv-clink">
               <div className="fv-clink-icon"><Download size={16} /></div>
               <div>
                 <span className="fv-clink-label">Resume</span>
