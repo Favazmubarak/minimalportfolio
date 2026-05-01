@@ -635,6 +635,26 @@ const PROJECTS = [
   },
   {
     num: "02",
+    badge: "Client Project",
+    title: "Topo — Custom CMS & Live Sync Website",
+    desc:
+      "A production client website with a fully custom CMS and a Real-Time Live Sync Engine — admin panel changes to products, gallery, and hero section appear on the public site within 10–15 seconds with no page refresh. The admin portal is secured via JWT in HTTP-only cookies with Next.js edge middleware blocking unauthenticated users before any JS bundles are served. Cloudinary handles all media with automatic WebP/AVIF delivery. Built with Framer Motion scroll animations and WCAG-compliant glassmorphism UI.",
+    stack: ["Next.js 16", "TypeScript", "MongoDB", "Cloudinary", "Framer Motion", "Tailwind CSS"],
+    accent: "rgba(217,28,28,0.07)",
+    accentBright: "rgba(217,28,28,0.14)",
+  },
+  {
+    num: "03",
+    badge: "Personal Project",
+    title: "Watch Wave — Full Stack eCommerce Web Application",
+    desc:
+      "A full-featured responsive eCommerce platform built on the MERN stack with complete shopping workflows — product listings, cart management, order tracking, and an admin dashboard. Secured with JWT and session-based authentication. Backend queries optimized and deployed on Azure for scalability and availability.",
+    stack: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "Tailwind CSS", "Azure"],
+    accent: "rgba(217,28,28,0.05)",
+    accentBright: "rgba(217,28,28,0.10)",
+  },
+  {
+    num: "04",
     badge: "In Progress",
     title: "Confero — Professional Networking Platform",
     desc:
